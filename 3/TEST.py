@@ -147,6 +147,7 @@ def GA_plot_dynamic(city_list, popSize, eliteSize, mutationRate, generations):
     return bestRoute
 
 
+
 def GA(city_list, popSize, eliteSize, mutationRate, generations):
     population = init_pop(city_list, popSize)  # 初始化种群  列表 每一项是一个个体 一个种群是100个城市
     process = []
